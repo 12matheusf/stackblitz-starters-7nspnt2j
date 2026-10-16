@@ -23,15 +23,13 @@
       vr-mode-ui="enabled: false"
     >
       <a-marker preset="hiro">
-        <a-box
-          position="0 0.5 0"
-          width="1"
-          height="1"
-          depth="1"
-          color="#FF3333"
-          animation="property: rotation; to: 0 360 0; loop: true; dur: 4000; easing: linear;"
-        >
-        </a-box>
+        <a-gltf-model
+        src="suamae.glb"
+        position="0 0 0"
+        scale="0.5 0.5 0.5"
+        rotation="-90 0 0"
+      >
+      </a-gltf-model>
       </a-marker>
 
       <a-entity camera></a-entity>
